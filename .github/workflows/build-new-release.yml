@@ -187,6 +187,13 @@ jobs:
             rm icon.png
             mv ../iconoblong2.png icon.png
           fi
+
+          # Replace banner-light.*.png in www folder
+          BANNER_FILE=$(find www -type f -name "banner-light.*.png" | head -n 1)
+          if [ -n "$BANNER_FILE" ]; then
+            rm "$BANNER_FILE"
+            mv ../bannerNew.png "$BANNER_FILE"
+          fi
           
           if ${{ matrix.legacy == true }} && false; then
             DISCARD_UNUSED_FONTS=1 JELLYFIN_WEB_DIR=../jellyfin-web/dist npm ci --no-audit
