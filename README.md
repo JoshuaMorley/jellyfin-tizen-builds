@@ -7,13 +7,14 @@ For real-time-ish communications, you can join my [Discord server](https://disco
 | File name    | Description                                                                                                               |
 |--------------|---------------------------------------------------------------------------------------------------------------------------|
 | Jellyfin.wgt | Built with the latest stable release of jellyfin-web                                                                      |
+| 10.11.z      | Built with the bleeding edge of the branch for the 10.11.z releases                                                       |
 | 10.10.z      | Built with the bleeding edge of the branch for the 10.10.z releases                                                       |
-| 10.9.z       | Built with the bleeding edge of the branch for the 10.9.z releases                                                        |
 | master       | Built with the latest potentially unstable changes to jellyfin-web code (this will always be the newest possible version) |
 | TrueHD       | TrueHD support is enabled (whether it works or not might depend on TV model)                                              |
 | secondary    | Built with the latest stable release of jellyfin-web and a different app ID to allow having a second account signed in    |
 | OblongIcon   | Use oblong type icon for TVs required it.  See more detail: jellyfin/jellyfin-tizen#171                                   |
 | GrayFix      | Potentially fixes an issue where the bars over and under the video are gray.  See more detail: jellyfin/jellyfin-tizen#65 |
+| SmartHub     | Add Samsung Smart Hub Preview integration. See more detail: jellyfin/jellyfin-tizen#318                                   |
 
 *Disclaimer: I don't have many success stories with TVs older than 2018, but a few people in my Discord server have reported it working for their 2015 and 2016 TVs with the `10.8.z` version. This version is not included in new releases, but can be found [here](https://github.com/jeppevinkel/jellyfin-tizen-builds/releases/tag/2024-10-27-1821)*
 
