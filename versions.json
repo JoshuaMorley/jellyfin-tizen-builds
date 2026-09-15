@@ -38,8 +38,8 @@
     {
       "owner": "jellyfin",
       "repo": "jellyfin-web",
-      "latest": "v12.0",
-      "latestPre": "v12.0",
+      "latest": "v12.1",
+      "latestPre": "v12.1",
       "matrix": true,
       "default": true
     }
